@@ -15,7 +15,7 @@
     "executable": "Chromium.app/Contents/MacOS/Chromium"
   },
   "release_tag": "kernel-153.0.8010.55-mac-arm64-preview-r1",
-  "status": "not_published",
+  "status": "published",
   "release_channel": "prerelease",
   "validation": {
     "scope": "local macOS arm64",
@@ -28,10 +28,23 @@
       "cold_gui": "passed",
       "file_download": "passed",
       "packaged_desktop": "passed",
-      "registered": "passed"
+      "registered": "passed",
+      "github_public_download_install": "passed"
     },
     "signing": "ad-hoc",
     "notarized": false,
     "tested_on_another_mac": false
+  },
+  "public_validation": {
+    "version": "153.0.8010.55",
+    "url": "https://github.com/axe-browser/axe-kernels/releases/download/kernel-153.0.8010.55-mac-arm64-preview-r1/catalog.json",
+    "status": "completed",
+    "sha256": "a8f4172da65e26b510de62005f276589e8509b45be9bba3803025ef54062261a",
+    "downloaded_bytes": 250677021,
+    "size_bytes": 250677021,
+    "fresh_install_verified": true,
+    "signature_verified": true,
+    "anonymous_download": true,
+    "attempts": 2
   }
 }

@@ -4,6 +4,7 @@
 - 内核归档与本地候选包存于 artifacts/，必须被 Git 忽略；编译后的大文件作为 GitHub Release assets 分发。
 - 不导入相邻桌面或内核项目源码；输入为各独立内核项目导出的完整归档和校验清单。
 - 未确认上传成功的文件不得写成公开已发布条目；下载地址使用固定版本 Release tag。
+- 本机验收的测试包使用 GitHub Prerelease 和 catalog-prerelease.json；发布说明明确 ad-hoc 签名、公证与异机验收状态，正式目录不混入测试包。
 - 保留每个 Chromium 主版本一个当前下载条目，不自动替换已有用户环境的版本。
 - 保留 SHA-256、下载/解压大小、平台、版本和 axe-chromium-features-v1 协议检查。
 - 不覆盖已有归档或用户改动，不记录凭证；未经明确要求不 commit、push、创建分支或发布 Release。

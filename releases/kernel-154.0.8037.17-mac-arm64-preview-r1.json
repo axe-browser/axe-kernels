@@ -15,7 +15,7 @@
     "executable": "Chromium.app/Contents/MacOS/Chromium"
   },
   "release_tag": "kernel-154.0.8037.17-mac-arm64-preview-r1",
-  "status": "not_published",
+  "status": "published",
   "release_channel": "prerelease",
   "validation": {
     "scope": "local macOS arm64",
@@ -28,10 +28,22 @@
       "cold_gui": "passed",
       "file_download": "passed",
       "packaged_desktop": "passed",
-      "registered": "passed"
+      "registered": "passed",
+      "github_public_download_install": "passed"
     },
     "signing": "ad-hoc",
     "notarized": false,
     "tested_on_another_mac": false
+  },
+  "public_validation": {
+    "version": "154.0.8037.17",
+    "url": "https://github.com/axe-browser/axe-kernels/releases/download/kernel-154.0.8037.17-mac-arm64-preview-r1/catalog.json",
+    "status": "completed",
+    "sha256": "8fba61dcfc737ce5c3cfe81959642dd50f9a0b7da14a7f9b25f28f96cf4cdd45",
+    "downloaded_bytes": 251596688,
+    "size_bytes": 251596688,
+    "fresh_install_verified": true,
+    "signature_verified": true,
+    "anonymous_download": true
   }
 }
