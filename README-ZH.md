@@ -15,13 +15,14 @@
 
 ## 安装
 
-- **手动下载：**打开 DMG，将 `Chromium.app` 拖入 Applications。镜像还包含完整内核清单和许可声明。
-- **通过 AxeBrowser 安装：**打开“内核管理”，将[测试版下载目录](https://github.com/axe-browser/axe-kernels/releases/download/kernel-catalog/catalog-prerelease.json)设为下载源，再选择 153 或 154。管理器会下载并校验 TAR.GZ 内核包。
+- **通过 AxeBrowser 安装：**打开“内核管理”，选择 153 或 154 下载。管理器默认读取本仓库的 [Releases](https://github.com/axe-browser/axe-kernels/releases)，然后校验并安装 TAR.GZ 内核包。
+- **独立运行浏览器：**打开 DMG，将 `Chromium.app` 拖入 Applications。
+- **在 AxeBrowser 注册本地内核：**将 `Chromium.app`、`args.gn` 和两份内核清单一起保存到固定的本地目录，再在“内核管理”中选择其中的 `axe-chromium-kernel.json`。
 
 每个版本的 Assets 提供 DMG 和 TAR.GZ 运行包。GitHub 自动生成的 `Source code (zip/tar.gz)` 是分发仓库快照，不是内核运行包。本仓库只保留英文 README、中文 README 和 LICENSE。
 
 ## 校验与许可证
 
-[下载目录 Release](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-catalog) 提供两版的下载目录、包元数据、SHA-256 校验清单及第三方声明。
+各版本的 Release 发布说明中提供 DMG 和 TAR.GZ 包的 SHA-256 校验值。
 
-Chromium 的许可条款见 [LICENSE](LICENSE)。第三方组件适用各自的许可条款，DMG 与下载目录 Release 中附有对应声明。
+Chromium 的许可条款见 [LICENSE](LICENSE)。第三方组件适用各自的许可条款，DMG 中附有 Chromium 许可证与第三方声明文件。
