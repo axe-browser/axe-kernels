@@ -1,57 +1,27 @@
 # AxeChromium
 
-[中文](#中文) · [English](#english)
+[中文文档](README-ZH.md)
 
-## 中文
+Customized Chromium kernels for AxeBrowser. Download compiled packages from [GitHub Releases](https://github.com/axe-browser/axe-kernels/releases).
 
-为小斧浏览器（AxeBrowser）提供独立的 AxeChromium 内核。完整内核压缩包通过 [GitHub Releases](https://github.com/axe-browser/axe-kernels/releases) 分发。
+## Download
 
-### 下载
+| Version | macOS Apple Silicon (arm64) | Release |
+| --- | --- | --- |
+| **154.0.8037.17** | [axe-chromium_154.0.8037.17_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/kernel-154.0.8037.17-mac-arm64-preview-r1/axe-chromium_154.0.8037.17_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-154.0.8037.17-mac-arm64-preview-r1) |
+| **153.0.8010.55** | [axe-chromium_153.0.8010.55_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/kernel-153.0.8010.55-mac-arm64-preview-r1/axe-chromium_153.0.8010.55_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-153.0.8010.55-mac-arm64-preview-r1) |
 
-| 内核版本 | macOS Apple Silicon（arm64） | 大小 | 发布说明 |
-| --- | --- | --- | --- |
-| **154.0.8037.17** | [TAR.GZ](https://github.com/axe-browser/axe-kernels/releases/download/kernel-154.0.8037.17-mac-arm64-preview-r1/chromium_154_mac_arm64.tar.gz) | 239.9 MiB | [Preview r1](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-154.0.8037.17-mac-arm64-preview-r1) |
-| **153.0.8010.55** | [TAR.GZ](https://github.com/axe-browser/axe-kernels/releases/download/kernel-153.0.8010.55-mac-arm64-preview-r1/chromium_153_mac_arm64.tar.gz) | 239.1 MiB | [Preview r1](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-153.0.8010.55-mac-arm64-preview-r1) |
+Both versions are **test prereleases** with ad-hoc signing. Local installation, GUI and shutdown checks passed. Developer ID signing, Apple notarization and validation on another Mac have not been completed. Intel Mac, Windows and Linux packages have not been published.
 
-两版均为 **Prerelease 测试版**，采用 ad-hoc 签名，已通过本机下载安装、GUI、环境隔离、正常退出和桌面联动验收。尚未完成 Developer ID 签名、Apple 公证及另一台 Mac 的验收。
+## Installation
 
-### 在 AxeBrowser 中安装
+- **Manual download:** open the DMG and copy `Chromium.app` to Applications. The image also includes the complete kernel manifests and license notices.
+- **Install through AxeBrowser:** open Kernel Manager, set the [prerelease catalog](https://github.com/axe-browser/axe-kernels/releases/download/kernel-catalog/catalog-prerelease.json) as the download source, then select 153 or 154. The manager downloads and verifies the TAR.GZ package.
 
-1. 打开 AxeBrowser 的“内核管理”。
-2. 将[测试版下载目录](https://raw.githubusercontent.com/axe-browser/axe-kernels/main/catalog-prerelease.json)设置为下载源。
-3. 选择 153 或 154 下载，客户端会校验并安装完整内核。
+Each version's Assets contains a DMG and a TAR.GZ runtime package. GitHub's automatic `Source code (zip/tar.gz)` downloads are repository snapshots, not runtime packages. The repository contains only this README, the Chinese README and LICENSE.
 
-每个 Release 另附 SHA-256 校验清单、版本元数据与许可声明。`Source code (zip/tar.gz)` 是 GitHub 自动生成的分发仓库快照；需要运行包时，请下载表中的 **TAR.GZ**。
+## Checksums and licenses
 
-### 发布与维护
+The [download catalog Release](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-catalog) provides catalogs, package metadata, SHA-256 checksums and third-party notices for both versions.
 
-本仓库维护下载目录、发布元数据和工具。内核源码在各自的独立项目维护，编译产物作为 Release assets 上传。
-
-详细流程见[发布说明](docs/publishing.md)。
-
-## English
-
-Independent AxeChromium kernels for AxeBrowser. Complete runtime archives are distributed through [GitHub Releases](https://github.com/axe-browser/axe-kernels/releases).
-
-### Download
-
-| Kernel version | macOS Apple Silicon (arm64) | Size | Release notes |
-| --- | --- | --- | --- |
-| **154.0.8037.17** | [TAR.GZ](https://github.com/axe-browser/axe-kernels/releases/download/kernel-154.0.8037.17-mac-arm64-preview-r1/chromium_154_mac_arm64.tar.gz) | 239.9 MiB | [Preview r1](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-154.0.8037.17-mac-arm64-preview-r1) |
-| **153.0.8010.55** | [TAR.GZ](https://github.com/axe-browser/axe-kernels/releases/download/kernel-153.0.8010.55-mac-arm64-preview-r1/chromium_153_mac_arm64.tar.gz) | 239.1 MiB | [Preview r1](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-153.0.8010.55-mac-arm64-preview-r1) |
-
-Both are **test prereleases** with ad-hoc signing. Local download and installation, GUI, environment isolation, normal shutdown, and desktop integration checks passed. Developer ID signing, Apple notarization, and validation on another Mac have not been completed.
-
-### Install in AxeBrowser
-
-1. Open Kernel Manager in AxeBrowser.
-2. Set the [prerelease catalog](https://raw.githubusercontent.com/axe-browser/axe-kernels/main/catalog-prerelease.json) as the download source.
-3. Select 153 or 154 to download. The client verifies and installs the complete kernel.
-
-Each Release includes SHA-256 checksums, version metadata, and license notices. GitHub's automatic `Source code (zip/tar.gz)` downloads are snapshots of this distribution repository. Choose **TAR.GZ** in the table for the runtime package.
-
-### Publishing and maintenance
-
-This repository maintains download catalogs, release metadata, and tools. Kernel source is maintained in its own projects, and compiled packages are uploaded as Release assets.
-
-See the [publishing guide](docs/publishing.md) for the detailed workflow.
+See [LICENSE](LICENSE) for Chromium's license. Third-party components retain their own licenses; the DMG and catalog Release include the corresponding notices.
