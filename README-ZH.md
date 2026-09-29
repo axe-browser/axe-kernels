@@ -11,7 +11,7 @@
 | **154.0.8037.17** | [axe-chromium_154.0.8037.17_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/kernel-154.0.8037.17-mac-arm64-preview-r1/axe-chromium_154.0.8037.17_macos_arm64.dmg) | [发布说明](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-154.0.8037.17-mac-arm64-preview-r1) |
 | **153.0.8010.55** | [axe-chromium_153.0.8010.55_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/kernel-153.0.8010.55-mac-arm64-preview-r1/axe-chromium_153.0.8010.55_macos_arm64.dmg) | [发布说明](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-153.0.8010.55-mac-arm64-preview-r1) |
 
-两版均为 **Prerelease 测试版**，采用 ad-hoc 签名，已通过本机安装、GUI 启动和正常退出验收。尚未完成 Developer ID 签名、Apple 公证及另一台 Mac 的验收。目前尚未发布 Intel Mac、Windows 或 Linux 包。
+**154.0.8037.17 为正式 Release**，**153.0.8010.55 为 Prerelease 测试版**。两版均采用 ad-hoc 签名，已通过本机安装、GUI 启动和正常退出验收。尚未完成 Developer ID 签名、Apple 公证及另一台 Mac 的验收。目前尚未发布 Intel Mac、Windows 或 Linux 包。
 
 ## 安装
 
