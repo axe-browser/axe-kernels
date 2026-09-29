@@ -23,6 +23,6 @@
 
 ## 校验与许可证
 
-各版本的 Release 发布说明中提供 DMG 和 TAR.GZ 包的 SHA-256 校验值。
+各版本 DMG 和 TAR.GZ 包的 SHA-256 校验值可在对应的 Release Assets 中查看。
 
 Chromium 的许可条款见 [LICENSE](LICENSE)。第三方组件适用各自的许可条款，DMG 中附有 Chromium 许可证与第三方声明文件。

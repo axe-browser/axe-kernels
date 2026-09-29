@@ -23,6 +23,6 @@ Each version's Assets contains a DMG and a TAR.GZ runtime package. GitHub's auto
 
 ## Checksums and licenses
 
-Each version's Release notes show the SHA-256 checksums for its DMG and TAR.GZ packages.
+The SHA-256 checksums for each version's DMG and TAR.GZ packages are available in its Release Assets.
 
 See [LICENSE](LICENSE) for Chromium's license. Third-party components retain their own licenses. The DMG includes the Chromium license and third-party credits files.
