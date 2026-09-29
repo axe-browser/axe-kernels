@@ -8,10 +8,10 @@ Customized Chromium kernels for AxeBrowser. Download compiled packages from [Git
 
 | Version | macOS Apple Silicon (arm64) | Release |
 | --- | --- | --- |
-| **154.0.8037.17** | [axe-chromium_154.0.8037.17_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/kernel-154.0.8037.17-mac-arm64-preview-r1/axe-chromium_154.0.8037.17_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-154.0.8037.17-mac-arm64-preview-r1) |
-| **153.0.8010.55** | [axe-chromium_153.0.8010.55_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/kernel-153.0.8010.55-mac-arm64-preview-r1/axe-chromium_153.0.8010.55_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/kernel-153.0.8010.55-mac-arm64-preview-r1) |
+| **154.0.8037.17** | [axe-chromium_154.0.8037.17_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/154.0.8037.17/axe-chromium_154.0.8037.17_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/154.0.8037.17) |
+| **153.0.8010.55** | [axe-chromium_153.0.8010.55_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/153.0.8010.55/axe-chromium_153.0.8010.55_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/153.0.8010.55) |
 
-154.0.8037.17 is a **regular Release**; 153.0.8010.55 remains a **test prerelease**. Both versions use ad-hoc signing. Local installation, GUI and shutdown checks passed. Developer ID signing, Apple notarization and validation on another Mac have not been completed. Intel Mac, Windows and Linux packages have not been published.
+Both versions are **regular Releases** and use ad-hoc signing. Local installation, GUI and shutdown checks passed. Developer ID signing, Apple notarization and validation on another Mac have not been completed. Intel Mac, Windows and Linux packages have not been published.
 
 ## Installation
 
