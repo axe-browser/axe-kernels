@@ -10,12 +10,13 @@ Customized Chromium kernels for AxeBrowser. Download compiled packages from [Git
 | --- | --- | --- |
 | **154.0.8037.17** | [axe-chromium_154.0.8037.17_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/154.0.8037.17/axe-chromium_154.0.8037.17_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/154.0.8037.17) |
 | **153.0.8010.55** | [axe-chromium_153.0.8010.55_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/153.0.8010.55/axe-chromium_153.0.8010.55_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/153.0.8010.55) |
+| **152.0.7977.141** | [axe-chromium_152.0.7977.141_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/152.0.7977.141/axe-chromium_152.0.7977.141_macos_arm64.dmg) | [Release notes](https://github.com/axe-browser/axe-kernels/releases/tag/152.0.7977.141) |
 
-Both versions are **regular Releases** and use ad-hoc signing. Local installation, GUI and shutdown checks passed. Developer ID signing, Apple notarization and validation on another Mac have not been completed. Intel Mac, Windows and Linux packages have not been published.
+All versions are **regular Releases** and use ad-hoc signing. Local installation, GUI and shutdown checks passed. Developer ID signing, Apple notarization and validation on another Mac have not been completed. Intel Mac, Windows and Linux packages have not been published.
 
 ## Installation
 
-- **Install through AxeBrowser:** open Kernel Manager, select 153 or 154, and download. The manager reads this repository's [Releases](https://github.com/axe-browser/axe-kernels/releases) by default, then verifies and installs the TAR.GZ package.
+- **Install through AxeBrowser:** open Kernel Manager, select 152, 153 or 154, and download. The manager reads this repository's [Releases](https://github.com/axe-browser/axe-kernels/releases) by default, then verifies and installs the TAR.GZ package.
 - **Run as a standalone browser:** open the DMG and copy `Chromium.app` to Applications.
 - **Register a local kernel in AxeBrowser:** keep `Chromium.app`, `args.gn` and both kernel manifests together in a permanent local directory, then select its `axe-chromium-kernel.json` in Kernel Manager.
 
