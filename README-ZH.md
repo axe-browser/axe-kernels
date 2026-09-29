@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-为小斧浏览器（AxeBrowser）提供定制 Chromium 内核。编译产物通过 [GitHub Releases](https://github.com/axe-browser/axe-kernels/releases) 分发。
+为斧头浏览器（AxeBrowser）提供定制 Chromium 内核。编译产物通过 [GitHub Releases](https://github.com/axe-browser/axe-kernels/releases) 分发。
 
 ## 下载
 
@@ -15,9 +15,9 @@
 
 ## 安装
 
-- **通过 AxeBrowser 安装：**打开“内核管理”，选择 153 或 154 下载。管理器默认读取本仓库的 [Releases](https://github.com/axe-browser/axe-kernels/releases)，然后校验并安装 TAR.GZ 内核包。
-- **独立运行浏览器：**打开 DMG，将 `Chromium.app` 拖入 Applications。
-- **在 AxeBrowser 注册本地内核：**将 `Chromium.app`、`args.gn` 和两份内核清单一起保存到固定的本地目录，再在“内核管理”中选择其中的 `axe-chromium-kernel.json`。
+- **通过 AxeBrowser 安装：** 打开“内核管理”，选择 153 或 154 下载。管理器默认读取本仓库的 [Releases](https://github.com/axe-browser/axe-kernels/releases)，然后校验并安装 TAR.GZ 内核包。
+- **独立运行浏览器：** 打开 DMG，将 `Chromium.app` 拖入 Applications。
+- **在 AxeBrowser 注册本地内核：** 将 `Chromium.app`、`args.gn` 和两份内核清单一起保存到固定的本地目录，再在“内核管理”中选择其中的 `axe-chromium-kernel.json`。
 
 每个版本的 Assets 提供 DMG 和 TAR.GZ 运行包。GitHub 自动生成的 `Source code (zip/tar.gz)` 是分发仓库快照，不是内核运行包。本仓库只保留英文 README、中文 README 和 LICENSE。
 
