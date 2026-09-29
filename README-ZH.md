@@ -13,12 +13,13 @@
 | **152.0.7977.141** | [axe-chromium_152.0.7977.141_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/152.0.7977.141/axe-chromium_152.0.7977.141_macos_arm64.dmg) | [发布说明](https://github.com/axe-browser/axe-kernels/releases/tag/152.0.7977.141) |
 | **151.0.7922.226** | [axe-chromium_151.0.7922.226_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/151.0.7922.226/axe-chromium_151.0.7922.226_macos_arm64.dmg) | [发布说明](https://github.com/axe-browser/axe-kernels/releases/tag/151.0.7922.226) |
 | **150.0.7871.255** | [axe-chromium_150.0.7871.255_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/150.0.7871.255/axe-chromium_150.0.7871.255_macos_arm64.dmg) | [发布说明](https://github.com/axe-browser/axe-kernels/releases/tag/150.0.7871.255) |
+| **149.0.7827.201** | [axe-chromium_149.0.7827.201_macos_arm64.dmg](https://github.com/axe-browser/axe-kernels/releases/download/149.0.7827.201/axe-chromium_149.0.7827.201_macos_arm64.dmg) | [发布说明](https://github.com/axe-browser/axe-kernels/releases/tag/149.0.7827.201) |
 
-所有版本均为 **正式 Release**，采用 ad-hoc 签名，已通过本机安装、GUI 启动和正常退出验收。尚未完成 Developer ID 签名、Apple 公证及另一台 Mac 的验收。目前尚未发布 Intel Mac、Windows 或 Linux 包。
+所有版本均为 **正式 Release**，采用 ad-hoc 签名，并已通过本机安装、GUI 启动和正常退出验收。尚未完成 Developer ID 签名、Apple 公证及另一台 Mac 的验收。目前尚未发布 Intel Mac、Windows 或 Linux 包。
 
 ## 安装
 
-- **通过 AxeBrowser 安装：** 打开“内核管理”，选择 150、151、152、153 或 154 下载。管理器默认读取本仓库的 [Releases](https://github.com/axe-browser/axe-kernels/releases)，然后校验并安装 TAR.GZ 内核包。
+- **通过 AxeBrowser 安装：** 打开“内核管理”，选择 149、150、151、152、153 或 154 下载。管理器默认读取本仓库的 [Releases](https://github.com/axe-browser/axe-kernels/releases)，然后校验并安装 TAR.GZ 内核包。
 - **独立运行浏览器：** 打开 DMG，将 `Chromium.app` 拖入 Applications。
 - **在 AxeBrowser 注册本地内核：** 将 `Chromium.app`、`args.gn` 和两份内核清单一起保存到固定的本地目录，再在“内核管理”中选择其中的 `axe-chromium-kernel.json`。
 
